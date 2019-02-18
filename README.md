@@ -1,5 +1,5 @@
 
-# my vscode user ssnippets for javascript
+# vscode user snippets for nodejs
 
 ## example
 
