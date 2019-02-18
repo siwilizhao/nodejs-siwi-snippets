@@ -16,3 +16,20 @@
 }
 ```
 
+## async-init
+
+![async-init](images/async-init.gif)
+
+```json
+{
+  "async-init": {
+    "prefix": "async-init",
+    "body": [
+      "(async () => {",
+      "    ",
+      "})()"
+    ],
+    "description": "async init"
+  }
+}
+```
