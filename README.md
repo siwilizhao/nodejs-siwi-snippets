@@ -16,20 +16,34 @@
 }
 ```
 
-## async-init
-
-![async-init](images/async-init.gif)
+## Immediately Invoked Async Function Expression
 
 ```json
 {
-  "async-init": {
-    "prefix": "async-init",
-    "body": [
-      "(async () => {",
-      "    ",
-      "})()"
-    ],
-    "description": "async init"
-  }
+  "Immediately Invoked Async Function Expression": {
+		"prefix": "iife async",
+		"body": [
+			"(async () => {",
+			"    ",
+			"})()"
+		],
+		"description": "Immediately Invoked Async Function Expression"
+	},
+}
+```
+
+## Immediately Invoked Function Expression
+
+```json
+{
+  "Immediately Invoked Function Expression": {
+		"prefix": "iife",
+		"body": [
+			"(async () => {",
+			"    ",
+			"})()"
+		],
+		"description": "Immediately Invoked Function Expression"
+	},
 }
 ```
