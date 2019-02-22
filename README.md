@@ -1,49 +1,14 @@
 
 # vscode user snippets for nodejs
 
-## example
+## Immediately Invoked Function Expression
 
-```json
-{
-  "Print to console": {
-    "prefix": "log",
-    "body": [
-      "console.log('$1');",
-      "$2"
-    ],
-    "description": "Log output to console"
-  }
-}
-```
+> iife-async
+
+![iife](images/iife.gif)
 
 ## Immediately Invoked Async Function Expression
 
-```json
-{
-  "Immediately Invoked Async Function Expression": {
-		"prefix": "iife async",
-		"body": [
-			"(async () => {",
-			"    ",
-			"})()"
-		],
-		"description": "Immediately Invoked Async Function Expression"
-	},
-}
-```
+> iife-async
 
-## Immediately Invoked Function Expression
-
-```json
-{
-  "Immediately Invoked Function Expression": {
-		"prefix": "iife",
-		"body": [
-			"(async () => {",
-			"    ",
-			"})()"
-		],
-		"description": "Immediately Invoked Function Expression"
-	},
-}
-```
+![iife-async](images/iife-async.gif)
